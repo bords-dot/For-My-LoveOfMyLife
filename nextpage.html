@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Next Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <audio autoplay loop preload="auto" aria-label="Background music">
+            <source src="./wefellinloveinoctober(mp3.pm).mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <div class="image-modal" id="imageModal" aria-label="Full image viewer">
+            <div class="modal-content">
+                <button class="close-modal" aria-label="Close full image">×</button>
+                <img id="modalImage" src="" alt="Full size memory">
+            </div>
+        </div>
+
+        <div class="page-wrapper">
+            <div class="topbar">
+                <button class="tab-button active" data-tab="home">Home</button>
+                <button class="tab-button" data-tab="message">Message</button>
+                <button class="tab-button" data-tab="gallery">Gallery</button>
+            </div>
+
+            <section id="home" class="tab-panel active">
+                <div class="hero">
+                    <h1>Happy 1st Anniversary Love</h1>
+                    <p>This day is very special because of you.</p>
+                </div>
+
+                <div class="story-layout">
+                    <div class="story-photo clickable" data-full="./image/bg1.jpg">
+                        <img src="./image/bg1.jpg" alt="first memory" loading="lazy">
+                        <div class="story-label">Sweet moments</div>
+                    </div>
+                    <div class="story-card">
+                        <h3>Love</h3>
+                        <p>May our bond continue to grow, stay warm, and become even stronger with every passing day.</p>
+
+                        <h3>Trust</h3>
+                        <p>Thank you for being my safe place, my comfort, and my favorite person to share life with.</p>
+                    </div>
+                </div>
+
+                <div class="story-layout">
+                    <div class="story-card">
+                        <h3>Memories That Shine</h3>
+                        <p>Every moment with you feels special. This page holds the warmth and romance of all the memories we have created together.</p>
+
+                        <h3>Keep the love alive</h3>
+                        <p>Let us keep choosing each other, making room for joy, and treasure every memory we share along the way.</p>
+                    </div>
+                    <div class="story-photo clickable" data-full="./image/im2.jpg">
+                        <img src="./image/im2.jpg" alt="second memory" loading="lazy">
+                        <div class="story-label">Our story</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="message" class="tab-panel">
+                <div class="message-box">
+                    <h2>For My Love</h2>
+                    <p>Langga, thank you for every laugh, every quiet moment, and every dream we've shared together. You make my life sweeter, brighter, and more meaningful in ways words can hardly express. Every day with you is a gift, and I am grateful for every memory we have created, from the simplest moments to the most unforgettable ones.</p>
+                    <p>You have brought so much happiness into my life. Your love gives me comfort during difficult times, strength when I feel weak, and countless reasons to smile. I admire your kindness, your patience, and the way you care for the people around you. Being with you has taught me the true meaning of love, trust, and companionship.</p>
+                    <p>I want you to know how much you mean to me. Thank you for standing by my side, for believing in me, and for loving me even when I am not at my best. I am thankful for every conversation, every adventure, every laugh, and even the challenges that have made our relationship stronger.</p>
+                    <p>No matter what the future holds, I look forward to creating more beautiful memories with you, chasing our dreams together, and supporting each other through every chapter of life. My heart is full because of you, and I am blessed to call you mine.</p>
+                    <p>I hope this page reminds you of how deeply loved, cherished, and appreciated you are. You are one of the greatest blessings in my life, and I will always be grateful for your love.</p>
+                    <p>Happy Anniversary, my love. ❤️</p>
+                    <p>Forever and always, Langga</p>
+                </div>
+            </section>
+
+            <section id="gallery" class="tab-panel">
+                <div class="gallery-grid">
+                    <div class="pic-box clickable" data-full="./image/Image1.jpg"><img src="./image/Image1.jpg" alt="first memory" loading="lazy"></div>
+                    <div class="pic-box clickable" data-full="./image/Image2.jpg"><img src="./image/Image2.jpg" alt="second memory" loading="lazy"></div>
+                    <div class="pic-box clickable" data-full="./image/Image3.jpg"><img src="./image/Image3.jpg" alt="third memory" loading="lazy"></div>
+                    <div class="pic-box clickable" data-full="./image/Image4.jpg"><img src="./image/Image4.jpg" alt="fourth memory" loading="lazy"></div>
+                    <div class="pic-box clickable" data-full="./image/Image5.jpg"><img src="./image/Image5.jpg" alt="fifth memory" loading="lazy"></div>
+                    <div class="pic-box clickable" data-full="./image/Image6.jpg"><img src="./image/Image6.jpg" alt="sixth memory" loading="lazy"></div>
+                    <div class="pic-box clickable" data-full="./image/Image7.jpg"><img src="./image/Image7.jpg" alt="seventh memory" loading="lazy"></div>
+                    <div class="pic-box clickable" data-full="./image/Image8.jpg"><img src="./image/Image8.jpg" alt="eighth memory" loading="lazy"></div>
+                    <div class="pic-box clickable" data-full="./image/Image10.jpg"><img src="./image/Image10.jpg" alt="ninth memory" loading="lazy"></div>
+                </div>
+            </section>
+
+            <div class="actions">
+                <a class="back-link" href="./index.html">Back to Welcome</a>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
